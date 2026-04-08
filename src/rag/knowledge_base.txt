@@ -1,0 +1,309 @@
+HYDROGPT KNOWLEDGE BASE — COMPREHENSIVE HYDROLOGY AND HYDROPOWER REFERENCE
+==========================================================================
+
+SECTION 1: HYDROLOGY FUNDAMENTALS
+==================================
+
+Hydrology is the scientific study of water movement, distribution, and storage on Earth including surface water, groundwater, and atmospheric water.
+The hydrological cycle describes how water moves continuously through evaporation, condensation, precipitation, infiltration, surface runoff, and river flow.
+Watersheds or catchments are geographical areas that collect all rainfall and channel it into a single river outlet or reservoir.
+Catchment characteristics such as area, slope, soil type, land cover, and geology determine how quickly and how much rainfall becomes river flow.
+Surface runoff occurs when rainfall intensity exceeds the soil infiltration capacity and water flows over the land surface into streams and rivers.
+Baseflow is the groundwater contribution to river flow that sustains river discharge even during dry periods without rainfall.
+Evapotranspiration is the combined water loss from soil evaporation and plant transpiration, reducing net water available for runoff.
+Interception occurs when vegetation captures rainfall before it reaches the soil, reducing effective rainfall available for runoff.
+Soil moisture content determines how much additional rainfall a catchment can absorb before generating significant runoff.
+Antecedent moisture conditions — the wetness of the catchment before a rainfall event — strongly influence the rainfall-runoff relationship.
+Impervious surfaces such as roads, buildings, and concrete reduce infiltration and accelerate surface runoff, increasing flood risk.
+
+SECTION 2: RAINFALL AND RUNOFF RELATIONSHIPS
+=============================================
+
+Rainfall intensity is the rate of rainfall per unit time, typically measured in millimeters per hour.
+Heavy rainfall events with intensity exceeding 50mm per day are classified as very heavy precipitation and produce significant surface runoff.
+Extreme rainfall events exceeding 100mm per day are classified as extremely heavy precipitation and can cause flash floods.
+The runoff coefficient is the ratio of surface runoff to total rainfall and varies from near zero for dense forests to near one for paved surfaces.
+Short-duration intense storms produce rapid high-peak floods while long-duration lower intensity storms produce slower sustained inflow increases.
+The time of concentration is the time required for water to travel from the farthest point in a catchment to the reservoir outlet.
+Lag time is the delay between peak rainfall and peak runoff, typically ranging from a few hours in small steep catchments to several days in large flat catchments.
+In large river basins, upstream rainfall may take 3 to 7 days to reach the downstream reservoir, creating significant lag effects in inflow forecasting.
+Cumulative rainfall over 3 to 5 days is a better predictor of high inflow events than single-day rainfall because it represents total catchment wetness.
+The unit hydrograph concept describes the characteristic shape of the runoff response to a unit of rainfall in a specific catchment.
+Base saturation excess runoff occurs when the entire soil profile is saturated and all additional rainfall becomes surface runoff immediately.
+
+SECTION 3: RESERVOIR INFLOW DYNAMICS
+======================================
+
+Reservoir inflow is the total volume of water entering a reservoir per unit time, measured in cubic meters per second also known as cumecs.
+One cumec equals one cubic meter of water flowing per second which is equivalent to 86,400 cubic meters of water per day.
+Primary sources of reservoir inflow include direct precipitation on the reservoir surface, river inflow from upstream catchments, and groundwater seepage.
+Inflow variability is highest during monsoon season when intense rainfall events cause rapid and large fluctuations in inflow rates.
+During dry season, inflow is primarily sustained by baseflow from groundwater and residual soil moisture draining into rivers.
+Snowmelt contribution to reservoir inflow is significant in Himalayan catchments where snow accumulates during winter and melts in spring and early summer.
+Seasonal inflow patterns show characteristic peaks during monsoon months (June to September) and troughs during dry months (November to May) in Indian hydropower systems.
+Inflow forecasting accuracy decreases with longer forecast horizons due to increasing uncertainty in future rainfall and catchment conditions.
+Short-term forecasts of 1 to 3 days rely heavily on current rainfall, antecedent moisture, and upstream flow data.
+Medium-term forecasts of 4 to 7 days require numerical weather prediction data and hydrological model integration.
+Long-term seasonal forecasts require climate indices, historical patterns, and probabilistic approaches.
+
+SECTION 4: HYDROPOWER GENERATION PRINCIPLES
+=============================================
+
+Hydropower plants convert potential energy of stored water into electrical energy through turbines and generators.
+The power output of a hydropower plant is proportional to both the water flow rate and the hydraulic head (height difference).
+Power equation: P = ρ × g × Q × H × η where P is power in watts, ρ is water density, g is gravity, Q is flow rate, H is head, and η is efficiency.
+Higher reservoir water levels provide greater hydraulic head and therefore higher power generation potential per unit of water.
+Run-of-river hydropower plants generate electricity from current river flow without significant storage and are highly dependent on real-time inflow.
+Storage hydropower plants use reservoirs to store water during high-flow periods and release it for generation during low-flow periods.
+Peaking hydropower plants release stored water specifically during periods of peak electricity demand, requiring accurate inflow forecasting for optimal scheduling.
+The plant load factor represents how efficiently a hydropower plant uses its installed capacity and depends heavily on inflow reliability.
+Low inflow periods force hydropower plants to reduce generation, potentially causing electricity shortages during dry seasons.
+Accurate inflow forecasting allows operators to maximize power generation while maintaining minimum environmental flow releases.
+
+SECTION 5: RESERVOIR OPERATIONS AND MANAGEMENT
+================================================
+
+Reservoir operation involves decisions about water storage, release, and conservation to meet multiple objectives simultaneously.
+Multiple objectives of reservoir operation include hydropower generation, irrigation supply, flood control, drinking water supply, and environmental flows.
+The rule curve defines the target storage level for each time of year and guides release decisions to balance storage and generation goals.
+Full Reservoir Level (FRL) is the maximum normal operating water level of a reservoir above which spillway discharge is triggered.
+Minimum Draw Down Level (MDDL) is the lowest permissible reservoir level below which water cannot be extracted for generation.
+Dead storage is the volume of water below the MDDL that cannot be utilized for any purpose but settles sediment and maintains minimum ecological flows.
+Live storage or active storage is the usable volume between MDDL and FRL that is available for operational management.
+Flood cushion is the reserved storage space maintained below FRL to absorb potential flood inflows without overtopping the dam.
+Spillway discharge is triggered when reservoir levels approach FRL and excess water must be released to prevent dam overtopping.
+Controlled releases through turbines and gates must balance downstream river requirements, irrigation demands, and flood control needs.
+Reservoir sedimentation gradually reduces storage capacity over decades as suspended sediment settles to the reservoir bottom.
+
+SECTION 6: FLOOD RISK ASSESSMENT IN HYDROPOWER SYSTEMS
+========================================================
+
+Flood risk in hydropower reservoir systems is assessed based on predicted inflow relative to reservoir capacity and current storage level.
+LOW RISK conditions occur when predicted inflow is below 300 cumecs and reservoir levels are well within operational limits.
+MODERATE RISK conditions occur when predicted inflow is between 300 and 500 cumecs requiring enhanced monitoring and preparedness.
+HIGH FLOOD RISK conditions occur when predicted inflow exceeds 500 cumecs and emergency spillway operations may be required.
+Flood frequency analysis determines the probability of inflow events of specific magnitudes using historical data and statistical distributions.
+The 100-year flood is an inflow event with a 1% probability of occurrence in any given year based on historical frequency analysis.
+Design flood is the maximum flood for which a dam structure is designed and includes significant safety margins above historical extremes.
+Probable Maximum Flood (PMF) is the theoretically largest flood that could occur under the worst combination of meteorological and hydrological conditions.
+Flash flood risk is highest in steep mountainous catchments where rainfall reaches the reservoir within hours leaving little time for warning.
+Early warning systems for downstream communities rely on accurate 24 to 72 hour inflow forecasts from systems like HydroGPT.
+Gate operation protocols specify how quickly spillway gates should be opened based on current and predicted reservoir levels and inflow.
+
+SECTION 7: MACHINE LEARNING FOR INFLOW FORECASTING
+=====================================================
+
+Machine learning models learn complex nonlinear relationships between meteorological inputs and hydrological outputs from historical data.
+Supervised learning for inflow forecasting uses historical input-output pairs to train models that can predict future inflow from current conditions.
+Feature engineering is the process of creating meaningful input variables from raw data to improve model learning efficiency and accuracy.
+Lag features capture the temporal memory of hydrological systems by including past values of key variables as model inputs.
+Rolling statistics including moving averages and cumulative sums capture medium-term trends and accumulation effects in hydrological data.
+Cyclical encoding of date variables using sine and cosine functions allows models to understand seasonal patterns without discontinuities.
+Train-validation-test split in time-series hydrology must be strictly temporal to prevent data leakage from future to past.
+Data leakage occurs when information from the test period influences model training, leading to artificially optimistic performance estimates.
+Cross-validation in time series uses walk-forward validation where the model is trained on past data and tested on immediate future data.
+Model evaluation metrics for inflow forecasting include RMSE (Root Mean Squared Error), MAE (Mean Absolute Error), and R-squared.
+RMSE penalizes large errors more heavily than MAE making it sensitive to flood peak prediction accuracy.
+R-squared measures the proportion of inflow variance explained by the model with values closer to 1 indicating better model fit.
+Ensemble methods that combine predictions from multiple models often outperform any individual model in hydrological forecasting.
+
+SECTION 8: XGBOOST FOR HYDROLOGICAL FORECASTING
+=================================================
+
+XGBoost stands for Extreme Gradient Boosting and is a highly optimized gradient boosting algorithm for structured data.
+Gradient boosting builds an ensemble of weak learners (decision trees) sequentially where each new tree corrects the errors of the previous ensemble.
+The gradient in gradient boosting refers to the gradient of the loss function with respect to the model predictions, guiding tree construction.
+Regularization in XGBoost includes L1 and L2 penalties on tree complexity that prevent overfitting and improve generalization.
+The learning rate in XGBoost controls how much each tree contributes to the final prediction, with smaller values requiring more trees but producing better models.
+Subsampling in XGBoost randomly selects a fraction of training samples for each tree, reducing overfitting and improving robustness.
+Column subsampling selects a random subset of features for each tree, similar to random forest, adding further regularization.
+XGBoost handles missing values internally by learning the optimal direction for missing value splits during training.
+Feature importance in XGBoost is calculated based on how often each feature is used for splitting and how much it reduces prediction error.
+XGBoost with carefully engineered lag features achieved R-squared of 0.862 on unseen 2024 test data in HydroGPT Phase 1.
+Training configuration: 500 estimators, learning rate 0.03, maximum depth 6, subsample 0.8, colsample 0.8, StandardScaler preprocessing.
+
+SECTION 9: LSTM NETWORKS FOR TIME SERIES FORECASTING
+======================================================
+
+Long Short-Term Memory networks are a type of Recurrent Neural Network specifically designed to learn long-term dependencies in sequential data.
+The vanishing gradient problem in traditional RNNs prevents learning from events more than a few time steps in the past.
+LSTM solves the vanishing gradient problem through a gated cell state architecture that allows gradients to flow unchanged over long sequences.
+The forget gate in LSTM decides what information from the previous cell state to discard using a sigmoid activation function.
+The input gate controls what new information is added to the cell state by combining sigmoid and tanh activations.
+The output gate determines what part of the cell state to output as the hidden state at the current time step.
+The cell state in LSTM acts as a conveyor belt of memory, carrying relevant information across many time steps with minimal modification.
+Stacked LSTM architectures with multiple layers can learn hierarchical temporal representations at different time scales.
+Dropout regularization in LSTM randomly sets a fraction of activations to zero during training to prevent overfitting.
+Early stopping monitors validation loss and stops training when performance stops improving to prevent overfitting.
+The lookback window in LSTM forecasting determines how many past time steps are used to predict the next value.
+HydroGPT LSTM uses a 14-day lookback window with architecture: Input → LSTM(128) → Dropout(0.3) → LSTM(64) → Dropout(0.3) → Dense(32) → Dense(1).
+MinMaxScaler preprocessing scales all features and the target variable to the 0 to 1 range for stable LSTM training.
+LSTM training uses Adam optimizer with learning rate reduction on plateau and early stopping with patience of 10 epochs.
+
+SECTION 10: SARIMAX FOR SEASONAL HYDROLOGICAL FORECASTING
+===========================================================
+
+SARIMAX stands for Seasonal AutoRegressive Integrated Moving Average with eXogenous variables and is a classical statistical time series model.
+Stationarity means the statistical properties of a time series (mean, variance, autocorrelation) remain constant over time.
+The Augmented Dickey-Fuller (ADF) test is used to statistically test whether a time series is stationary.
+If the ADF p-value is less than 0.05, the null hypothesis of unit root (non-stationarity) is rejected, confirming stationarity.
+Integration (the I in ARIMA) removes trends and achieves stationarity by differencing the time series.
+First-order differencing computes the difference between consecutive observations: y_t - y_{t-1}.
+The AutoRegressive component uses past values of the series to predict future values, capturing the river flow memory effect.
+The Moving Average component uses past forecast errors to correct current predictions, accounting for systematic over or under-prediction.
+Seasonal components in SARIMAX capture periodic patterns such as annual monsoon cycles and weekly flow patterns.
+Exogenous variables in SARIMAX allow inclusion of external predictors such as rainfall, temperature, and upstream discharge.
+The seasonal period S=7 in HydroGPT SARIMAX captures weekly patterns in reservoir operations and human-driven flow variations.
+SARIMAX provides interpretable coefficient estimates showing the quantitative impact of each variable on inflow prediction.
+AIC (Akaike Information Criterion) and BIC (Bayesian Information Criterion) are used to select optimal SARIMAX parameter values.
+ACF (AutoCorrelation Function) and PACF (Partial AutoCorrelation Function) plots guide selection of AR and MA orders.
+SARIMAX serves as a transparent statistical baseline for comparing against black-box machine learning models in HydroGPT.
+
+SECTION 11: RETRIEVAL-AUGMENTED GENERATION (RAG) IN HYDROGPT
+=============================================================
+
+Retrieval-Augmented Generation (RAG) enhances Large Language Models by providing relevant domain knowledge retrieved from a curated knowledge base.
+RAG was introduced by Lewis et al. (2020) and significantly reduces hallucination by grounding LLM responses in verified factual sources.
+Hallucination in LLMs refers to the generation of plausible-sounding but factually incorrect information, which is particularly dangerous in safety-critical domains.
+The RAG pipeline consists of three stages: document retrieval, prompt augmentation, and response generation.
+Document retrieval uses vector similarity search to find the most relevant knowledge chunks for a given user query.
+TF-IDF (Term Frequency-Inverse Document Frequency) vectorization converts text into numerical vectors based on word frequency and uniqueness.
+Term Frequency (TF) measures how often a word appears in a document, normalized by document length.
+Inverse Document Frequency (IDF) measures how unique a word is across all documents, down-weighting common words.
+Cosine similarity measures the angle between two vectors and ranges from 0 (completely dissimilar) to 1 (identical).
+Cosine similarity is preferred over Euclidean distance for text retrieval because it is invariant to document length.
+The top-k retrieved chunks (typically 3 in HydroGPT) are concatenated and included in the LLM prompt as context.
+Prompt augmentation combines the retrieved context with the user question to create a structured prompt that guides the LLM response.
+Sentence transformers produce semantic embeddings that capture meaning rather than just keyword matching, improving retrieval quality.
+The HydroGPT knowledge base contains domain-specific hydrology knowledge about rainfall-runoff relationships, reservoir operations, flood risk, and forecasting models.
+
+SECTION 12: REACT INTELLIGENT AGENT FRAMEWORK
+==============================================
+
+ReAct (Reasoning and Acting) is an AI agent framework introduced by Yao et al. (2022) that interleaves reasoning traces with action execution.
+Traditional LLMs produce a single response but cannot take actions, use tools, or adapt based on intermediate results.
+ReAct enables LLM agents to think step by step (Thought), execute tools (Action), observe results (Observation), and iterate until the task is complete.
+The Thought step involves the agent reasoning about what information it needs and what action to take next.
+The Action step involves the agent calling an external tool such as a forecasting model, database, or knowledge retrieval system.
+The Observation step involves the agent receiving and interpreting the results returned by the tool.
+The Revise step allows the agent to update its reasoning and decide whether additional actions are needed or if the final answer is ready.
+In HydroGPT, the ReAct agent uses three tools: forecast_tool for ML model inference, risk_analysis_tool for flood risk classification, and retrieve_context for RAG-based knowledge retrieval.
+The forecast_tool loads the best-performing trained model and runs inference for the requested date range.
+The risk_analysis_tool calculates average predicted inflow and classifies flood risk as LOW, MODERATE, or HIGH.
+The retrieve_context tool queries the vector store for relevant hydrology knowledge using cosine similarity search.
+The ReAct loop in HydroGPT runs for up to 3 iterations, collecting forecast data, risk assessment, and domain knowledge before generating the final explanation.
+The final answer is generated by the LLM using all collected observations as structured context, producing a comprehensive natural language explanation.
+ReAct agents are more robust than single-pass pipelines because they can recover from tool failures by retrying or using alternative approaches.
+
+SECTION 13: FASTAPI BACKEND ARCHITECTURE
+=========================================
+
+FastAPI is a modern high-performance Python web framework for building REST APIs with automatic documentation generation.
+REST (Representational State Transfer) is an architectural style for distributed systems using standard HTTP methods: GET, POST, PUT, DELETE.
+The HydroGPT API exposes four main endpoints: /predict for forecasting, /chat for question answering, /best-model for model selection, and /model-metrics for performance comparison.
+The /predict endpoint accepts a POST request with start_date and end_date parameters and returns the complete forecast result from the ReAct agent.
+The /chat endpoint accepts a POST request with a natural language question and returns a RAG-augmented LLM response.
+Pydantic models in FastAPI provide automatic request validation, ensuring correct data types and formats before processing.
+Input validation in the /predict endpoint checks date format validity, ensures end_date is after start_date, and limits forecast horizon to 365 days.
+Uvicorn is an ASGI (Asynchronous Server Gateway Interface) server that runs the FastAPI application with high concurrency support.
+The FastAPI automatic documentation at /docs provides an interactive Swagger UI for testing all API endpoints directly in the browser.
+Error handling with HTTPException returns appropriate HTTP status codes (400 for bad request, 500 for server error) with descriptive error messages.
+The FastAPI backend serves as the integration layer connecting the Streamlit UI to the ML models, ReAct agent, and RAG system.
+
+SECTION 14: STREAMLIT NO-CODE INTERFACE
+========================================
+
+Streamlit is a Python framework for building interactive web applications for data science and machine learning without requiring HTML, CSS, or JavaScript.
+The no-code interface in HydroGPT makes advanced ML forecasting accessible to hydropower engineers who lack programming expertise.
+Human-centered AI design principles (Shneiderman 2020) emphasize trust, transparency, usability, and user empowerment in AI system interfaces.
+The HydroGPT dashboard is organized into three tabs: Inflow Forecast for prediction, HydroGPT Assistant for question answering, and Model Performance for comparison.
+The forecast tab provides date pickers, a model selection dropdown, and a Run Forecast button for intuitive interaction.
+Metric cards display key results including average inflow, risk level, model used, and R-squared score in an easily scannable format.
+The flood alert banner uses color coding: green for low risk, orange for moderate risk, and red for high risk to provide instant visual risk assessment.
+Interactive line charts in Streamlit allow engineers to visualize forecast trends and identify potential high-inflow periods.
+The CSV download button enables engineers to export forecast data for use in external planning and reporting tools.
+The ReAct reasoning trace viewer provides transparency by showing the agent's step-by-step thinking process to build trust with users.
+Suggested question buttons in the assistant tab lower the barrier to interaction for engineers unfamiliar with AI systems.
+The system status panel shows real-time connection status for the API server, ML models, knowledge base, and LLM, helping engineers troubleshoot issues.
+
+SECTION 15: DATA ENGINEERING AND PREPROCESSING
+================================================
+
+Data quality is fundamental to accurate inflow forecasting as garbage-in-garbage-out applies to all machine learning systems.
+Missing value imputation for hydrological time series uses time-based interpolation that considers the temporal structure of the data.
+Forward fill propagates the last known value forward to fill gaps, appropriate for slowly changing variables like reservoir level.
+Backward fill uses the next known value to fill gaps at the beginning of time series where forward fill cannot be applied.
+IQR (Interquartile Range) outlier detection identifies observations below Q1 - 1.5×IQR or above Q3 + 1.5×IQR as potential outliers.
+Q1 is the 25th percentile and Q3 is the 75th percentile of the data distribution.
+Outliers in hydrological data may represent genuine extreme events (keep) or sensor errors and data entry mistakes (remove or impute).
+StandardScaler normalizes features to zero mean and unit variance, preventing large-scale features from dominating gradient-based models.
+MinMaxScaler scales features to the 0-1 range and is preferred for LSTM inputs where bounded activations are important.
+Temporal train-validation-test split uses strictly ordered time periods to prevent data leakage in time-series models.
+The HydroGPT split uses 2015-2022 for training (2915 records), 2023 for validation (365 records), and 2024 for testing (366 records).
+Zero data leakage means the model has never seen any information from the validation or test periods during training.
+Feature correlation analysis reveals which input variables have the strongest linear relationship with inflow, guiding feature selection.
+
+SECTION 16: MODEL EVALUATION AND SELECTION
+============================================
+
+Root Mean Squared Error (RMSE) = sqrt(mean((actual - predicted)^2)) measures average prediction error in the same units as inflow (cumecs).
+Mean Absolute Error (MAE) = mean(|actual - predicted|) measures average absolute deviation, less sensitive to outliers than RMSE.
+R-squared (R²) = 1 - (SS_residual / SS_total) measures the proportion of variance in inflow explained by the model.
+R² = 0.862 means the HydroGPT XGBoost model explains 86.2% of the variation in actual reservoir inflow values.
+RMSE = 15.593 cumecs means the model's predictions are on average approximately 15 cumecs from the actual inflow value.
+MAE = 12.461 cumecs means the model is typically off by about 12 cumecs in absolute terms on any given day.
+Nash-Sutcliffe Efficiency (NSE) is a standard hydrological model performance metric equivalent to R² and considered good above 0.75.
+The Kling-Gupta Efficiency (KGE) is a more balanced metric that separately evaluates correlation, bias, and variability.
+Model selection in HydroGPT is automatic — the system compares RMSE across all trained models and selects the best performer.
+Feature importance charts from XGBoost reveal which hydrological variables most influence inflow predictions.
+Residual analysis checks whether prediction errors are random and normally distributed, indicating a well-fitted model.
+Overfitting occurs when a model performs well on training data but poorly on unseen test data, indicating memorization rather than generalization.
+Underfitting occurs when a model is too simple to capture the complex nonlinear relationships in hydrological data.
+
+SECTION 17: INDIA WATER RESOURCES AND HYDROLOGY
+=================================================
+
+India receives approximately 4000 billion cubic meters of annual rainfall with highly uneven spatial and temporal distribution.
+The Indian monsoon season from June to September contributes 70 to 80 percent of annual rainfall and drives most hydropower generation.
+Major river basins in India include the Ganga, Brahmaputra, Godavari, Krishna, Narmada, Tapti, Mahanadi, Cauvery, and Indus systems.
+The Western Ghats region receives very high rainfall of 2000 to 6000mm annually and hosts many hydropower projects in Maharashtra, Karnataka, and Kerala.
+India has an installed hydropower capacity of approximately 47 GW making it one of the largest hydropower producers in Asia.
+The Koyna Dam in Maharashtra is a major hydropower project on the Koyna River with an installed capacity of 1960 MW.
+India Water Resources Information System (WRIS) provides comprehensive hydrological data including river flow, rainfall, and reservoir levels through an online portal.
+SCADA (Supervisory Control and Data Acquisition) systems at dams collect real-time sensor data on gate positions, water levels, and flow rates.
+The Central Water Commission (CWC) monitors river flow and reservoir levels across India and issues flood warnings for major river basins.
+Reservoir regulation is governed by reservoir operation manuals approved by state governments and central authorities specifying operating procedures for different inflow scenarios.
+
+SECTION 18: LARGE LANGUAGE MODELS AND NATURAL LANGUAGE PROCESSING
+===================================================================
+
+Large Language Models (LLMs) are neural networks trained on massive text datasets to generate coherent and contextually relevant text.
+The Transformer architecture introduced by Vaswani et al. (2017) uses self-attention mechanisms to model long-range dependencies in text.
+Self-attention allows each word in a sequence to attend to all other words simultaneously, capturing complex semantic relationships.
+GPT (Generative Pre-trained Transformer) models are trained using next-word prediction on large corpora and fine-tuned for specific tasks.
+LLaMA (Large Language Model Meta AI) is an open-source family of LLMs developed by Meta AI available in various sizes from 7B to 70B parameters.
+Groq is a cloud AI inference service providing fast and free access to LLaMA 3 and other open-source LLMs through an API.
+Prompt engineering is the practice of designing input prompts to guide LLM responses toward desired formats and content.
+System prompts in chat-based LLMs define the AI assistant's role, expertise, and behavioral guidelines for the conversation.
+Context window is the maximum number of tokens an LLM can process in a single request, limiting how much information can be provided.
+Token is the basic unit of text processed by LLMs, roughly corresponding to a word or word piece in most tokenizers.
+Temperature parameter controls the randomness of LLM output: low temperature (0.1-0.3) for factual responses, high temperature (0.7-0.9) for creative responses.
+HydroGPT uses temperature 0.7 to balance factual accuracy with natural conversational language in forecast explanations.
+
+SECTION 19: HYDROGPT SYSTEM PERFORMANCE AND RESULTS
+=====================================================
+
+HydroGPT Phase 1 successfully implemented complete data preprocessing, feature engineering, XGBoost training, and LSTM training pipelines.
+The merged cleaned dataset contains 3,646 daily hydrological records spanning 10 years from January 2015 to December 2024.
+Feature engineering created 14 meaningful predictors from 5 raw data sources: lag features, rolling statistics, and cyclical date encodings.
+The XGBoost model trained on 2,915 records from 2015-2022 achieved RMSE=15.593, MAE=12.461, and R²=0.862 on unseen 2024 test data.
+The validation RMSE curve showed stable monotonic decrease over 500 boosting iterations confirming stable model training without overfitting.
+The actual vs predicted inflow plot for 2024 shows close alignment between predicted and actual values including seasonal peaks and recessions.
+XGBoost hyperparameter selection of n_estimators=500, learning_rate=0.03, max_depth=6 was validated through performance on the 2023 validation set.
+The LSTM model with 14-day lookback was trained with early stopping achieving stable training convergence on the hydrological dataset.
+SARIMAX with order (2,1,2) and seasonal order (1,1,1,7) was successfully fitted to the training period inflow data.
+The ReAct agent successfully completes the full Thought-Action-Observation cycle in 3 iterations for any forecast request.
+The FastAPI backend exposes 4 REST endpoints providing forecast, chat, model comparison, and health check functionality.
+The Streamlit dashboard provides a complete no-code interface with 3 tabs for forecasting, Q&A assistance, and model performance comparison.
+The smart fallback LLM provides contextually appropriate responses covering 15+ hydrology topics without requiring an API key.
+HydroGPT represents a complete end-to-end intelligent hydropower forecasting platform combining ML, LLM, RAG, and agent technologies.
