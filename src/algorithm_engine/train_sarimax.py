@@ -71,7 +71,7 @@ def train_sarimax():
     mae = mean_absolute_error(y_test, preds)
     r2 = r2_score(y_test, preds)
 
-    print("\n=== SARIMA Evaluation ===")
+    print("\n=== SARIMAX Evaluation ===")
     print(f"RMSE: {rmse:.3f}")
     print(f"MAE: {mae:.3f}")
     print(f"R² Score: {r2:.3f}")
@@ -106,7 +106,7 @@ def train_sarimax():
     plt.savefig(os.path.join(MODEL_DIR, "sarimax_actual_vs_predicted.png"))
     plt.show()
 
-    print("\nSARIMA training completed successfully!")
+    print("\nSARIMAX training completed successfully!")
 
 
 if __name__ == "__main__":

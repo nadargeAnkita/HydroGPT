@@ -24,10 +24,10 @@ LOOKBACK = 14
 
 
 def create_sequences(X, y, lookback):
-    Xs, ys = [], []
-    for i in range(len(X) - lookback):
+    Xs, ys = [], []                                         # empty input and output lists          
+    for i in range(len(X) - lookback):                      # l = 100, lb = 14 window = 0 - 85
         Xs.append(X[i:(i + lookback)])
-        ys.append(y[i + lookback])
+        ys.append(y[i + lookback])                          # 
     return np.array(Xs), np.array(ys)
 
 
